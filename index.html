@@ -6,10 +6,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vendor/bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="sass/style.scss">
 </head>
 <body>
-<header>
-</header>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+            <a href="#" class="navbar-brand">GOOD RIDE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobile-menu">
+                <ul class="navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">szosa</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Koła</a>
+                                <a href="#" class="dropdown-item">Ramy</a>
+                            </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">gravel</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Koła</a>
+                                <a href="#" class="dropdown-item">Ramy</a>
+                            </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">aero</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Koła</a>
+                                <a href="#" class="dropdown-item">Ramy</a>
+                            </div>
+                    </li>
+                </ul>
+                <div class="btn-group ms-auto" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary"><i class="fa-solid fa-cart-shopping"></i>Karta</button>
+                    <button type="button" class="btn btn-secondary me-1"><i class="fa-solid fa-user"></i>Konto</button>
+                </div>
+            </div>
+        </nav>
+        <div id="main-slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80" alt="image" id="specialized">
+                    <div class="carousel-caption py-5">
+                        <h3>Królowie szosy</h3>
+                        <h4>Specialized</h4>
+                        <a class="btn btn-info m-3 btn-lg" href="#">Sprawdź</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="https://images.unsplash.com/photo-1505705694340-019e1e335916?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="image" id="bianchi">
+                    <div class="carousel-caption">
+                        <h3>Klasyka</h3>
+                        <h4>Bianchi</h4>
+                        <a class="btn btn-info m-3 btn-lg" href="#">Sprawdź</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="https://images.unsplash.com/photo-1552402896-0c6cd7cdecf3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="image" id="gents' on bikes">
+                    <div class="carousel-caption">
+                    <h3>Najnowsze kolekcje</h3>
+                    <a class="btn btn-info m-3 btn-lg" href="#">Sprawdź</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#main-slider" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#main-slider" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </header>
 </body>
 </html>
