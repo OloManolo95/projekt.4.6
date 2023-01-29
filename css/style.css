@@ -1,9 +1,27 @@
 /* Variables */
 /* Header */
+a {
+  text-decoration: none;
+}
+
 .logo {
   font-family: "Explora", cursive;
   color: rgb(211, 211, 16);
   margin: auto;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBT0EsV0FBQTtBQUVBO0VBQ0ksK0JBUlE7RUFTUix3QkFBQTtFQUNBLFlBQUE7QUNOSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+container {
+  padding: 120px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 72px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBT0EsV0FBQTtBQUNBO0VBQ0kscUJBQUE7QUNMSjs7QURRQTtFQUNJLCtCQVhRO0VBWVIsd0JBQUE7RUFDQSxZQUFBO0FDTEo7O0FEUUE7RUFDSSxjQUFBO0FDTEo7O0FEUUE7RUFDSSxrQkFBQTtFQUNBLGVBQUE7QUNMSjs7QURRQTtFQUNJLGtCQUFBO0VBQ0EsZUFBQTtBQ0xKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
