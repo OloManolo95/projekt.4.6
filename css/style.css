@@ -1,3 +1,27 @@
-a{text-decoration:none}.logo{font-family:"Explora",cursive;color:#d3d310;margin:auto}container{padding:120px}h2{text-align:center;font-size:72px}h1{text-align:center;font-size:72px}
+/* Variables */
+/* Header */
+a {
+  text-decoration: none;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxFQUFFLG9CQUFvQixDQUFDLE1BQU0sNkJBQTZCLENBQUMsYUFBYSxDQUFDLFdBQVcsQ0FBQyxVQUFVLGFBQWEsQ0FBQyxHQUFHLGlCQUFpQixDQUFDLGNBQWMsQ0FBQyxHQUFHLGlCQUFpQixDQUFDLGNBQWMiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYXt0ZXh0LWRlY29yYXRpb246bm9uZX0ubG9nb3tmb250LWZhbWlseTpcIkV4cGxvcmFcIixjdXJzaXZlO2NvbG9yOiNkM2QzMTA7bWFyZ2luOmF1dG99Y29udGFpbmVye3BhZGRpbmc6MTIwcHh9aDJ7dGV4dC1hbGlnbjpjZW50ZXI7Zm9udC1zaXplOjcycHh9aDF7dGV4dC1hbGlnbjpjZW50ZXI7Zm9udC1zaXplOjcycHh9XG4iXX0= */
+.logo {
+  font-family: "Explora", cursive;
+  color: rgb(211, 211, 16);
+  margin: auto;
+}
+
+container {
+  padding: 120px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 72px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBT0EsV0FBQTtBQUNBO0VBQ0kscUJBQUE7QUNMSjs7QURRQTtFQUNJLCtCQVhRO0VBWVIsd0JBQUE7RUFDQSxZQUFBO0FDTEo7O0FEUUE7RUFDSSxjQUFBO0FDTEo7O0FEUUE7RUFDSSxrQkFBQTtFQUNBLGVBQUE7QUNMSjs7QURRQTtFQUNJLGtCQUFBO0VBQ0EsZUFBQTtBQ0xKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
