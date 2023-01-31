@@ -13,12 +13,25 @@ container {
 /* Header */
 
 
-.nav-title {
+header {
+  background-image: url("../images/header.png");
+  height: 650px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+
+
+.nav-title a {
+  text-decoration: none;
   font-size: 26px;
   letter-spacing: 1px;
   line-height: 41px;
   color: #fed136;
-  font-family: "Wisdom";
+  font-family: "Wisdom"
 }
 
 .navbar-links {
@@ -76,14 +89,4 @@ text-align: center;
   text-decoration: none;
   display: block;
   margin: auto;
-}
-
-header {
-  background-image: url("../images/header.png");
-  height: 650px;
-  position: relative;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
 }
